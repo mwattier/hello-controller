@@ -18,6 +18,6 @@
     },
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": { "mwattier\\HelloController": "src/"}
+        "psr-4": { "mwattier\\HelloController\\": "src/"}
     }
 }
