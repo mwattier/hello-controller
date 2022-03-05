@@ -1,0 +1,23 @@
+{
+    "name": "mwattier/hello-controller",
+    "description": "Hello World Controller learning composer",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "Mike Wattier",
+            "email": "mikedwattier@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require":{
+        "codeigniter4/framework": "^4.1.8"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": { "mwattier\\HelloController": "src/"}
+    }
+}
